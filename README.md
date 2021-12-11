@@ -15,7 +15,7 @@ It requires `qemu-system-aarch64` installed to run this project.
 ```bash
 make
 qemu-system-aarch64 -M virt -cpu cortex-a57 -nographic -smp 2 \
-        -kernel krenel.elf
+        -kernel kernel.elf
 ```
 
 # References
